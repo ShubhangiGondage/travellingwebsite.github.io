@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Blog Page</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contactUs.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificates and Online Programs for 2021</h1>
+    </section>
+
+    <!-- Blog page Content -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg">
+                <h2>Our Certificates and Online Programs for 2021</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, a quae! Neque eum corrupti
+                    perferendis, animi ipsum quisquam maxime obcaecati reiciendis. Et tenetur fugit, officiis dicta qui
+                    id libero odit?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam velit numquam dolorum atque ipsum
+                    exercitationem, impedit aliquam similique laborum facere hic tenetur qui quibusdam tempore,
+                    reiciendis ipsa! Autem libero totam, dolores necessitatibus odio, ullam recusandae quos esse ipsam,
+                    delectus hic blanditiis commodi ipsa accusamus voluptates.</p><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum earum, odio alias possimus qui fugit
+                    nesciunt hic est optio similique iusto reprehenderit nulla. Cum, dolores.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, harum nostrum sunt id, deserunt sit
+                    eos, quia blanditiis quibusdam accusamus consequuntur eaque velit deleniti dolores molestiae
+                    recusandae aperiam. Voluptatum eos voluptatibus, maxime laborum nemo error voluptas! Animi
+                    consequuntur aspernatur in nulla rerum culpa ratione quibusdam quaerat aliquam iste, neque accusamus
+                    eveniet numquam facilis sunt expedita quae quis eius assumenda enim.</p><br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis et nesciunt laboriosam inventore
+                    maxime rem quam dicta tempore repellendus. Recusandae sunt fugiat quae aliquam excepturi, dolores
+                    unde sapiente quod saepe accusamus deserunt alias consectetur magni laudantium doloremque, cum ab
+                    eius ipsum nisi dolorum? Consequatur repellendus voluptatum aliquam minus eum distinctio? Quasi,
+                    eaque? Distinctio quod id sint quia saepe laborum beatae rem facilis doloribus veritatis quae,
+                    accusamus dolor cum quisquam adipisci? Soluta dolore nesciunt nam voluptates tenetur veritatis est
+                    molestias? Neque.</p>
+                <div class="comment-box">
+                    <h3>Leave Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>11</span>
+                </div>
+                <div>
+                    <span>Internet Of Things</span>
+                    <span>20</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At nemo dolorem, totam nobis obcaecati similique
+            earum ut quasi possimus, ducimus repellat nihil atque a libero!</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+
+
+    <!-- Javascript Section -->
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-150px";
+        }
+    </script>
+</body>
+
+</html>
