@@ -1,3 +1,3 @@
 # travellingweb.github.io
- this is my first web
+ This is website is developed using HTML, CSS, JAVASCRIPT.
  <img src="images/university.png">
